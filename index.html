@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Mon premier site</title>
+  <style>
+    /* --- Style global --- */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #34495e;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+
+    button {
+      background: #2ecc71;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+
+    button:hover {
+      background: #27ae60;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <!-- En-tête -->
+  <header>
+    <h1>Bienvenue sur mon site 🌍</h1>
+    <p>Mon tout premier site web en HTML, CSS et JavaScript</p>
+  </header>
+
+  <!-- Menu de navigation -->
+  <nav>
+    <a href="#">Accueil</a>
+    <a href="#">À propos</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Contenu principal -->
+  <main>
+    <h2>À propos de moi</h2>
+    <p>Je suis en train d'apprendre à créer des sites web. C'est un début mais je progresse 🚀.</p>
+
+    <button onclick="direBonjour()">Clique-moi !</button>
+  </main>
+
+  <!-- Pied de page -->
+  <footer>
+    <p>&copy; 2025 - Mon site personnel</p>
+  </footer>
+
+  <!-- Script JS -->
+  <script>
+    function direBonjour() {
+      alert("Bonjour et merci de visiter mon site 🎉");
+    }
+  </script>
+</body>
+</html>
